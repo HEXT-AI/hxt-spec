@@ -1,5 +1,4 @@
 # hxt-spec
-
 Open specification and reference implementations for `.hxt`, a Markdown format with a tamper-evident authorship ledger.
 
 `.hxt` keeps the document human-readable while appending a machine-verifiable block between `<!--hxt:begin-->` and `<!--hxt:end-->`. The ledger stores timestamps, edit deltas, and hashes only. It never duplicates the document body.
